@@ -7,6 +7,13 @@ Pre Requisite:
   You need eclipse ide, mysql and tomcat.
   
 Getting Started:
-  You need to import this code and then make changes in the db username and password
+  You need to import this code and then make changes in the db username and password in JobPortal/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml file.
+  
+Build-With:
+  Spring- Framework Used
+  Maven-Dependency Management
+  
+Contributor:
+  StackOverFlow
   
   
