@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+
+  
+    <definition name="defaultTemplate" template="/WEB-INF/View/template.jsp">
+        <put-attribute name="title" value="" />
+         <put-attribute name="header" value="/WEB-INF/View/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/View/footer.jsp" />
+    </definition>
+    
+    
+    <definition name="getDetails" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/getDetails.jsp" />  
+    </definition> 
+    
+    <definition name="login" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />  
+    </definition>  
+    <definition name="updateDetails" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/updateDetails.jsp" />  
+    </definition>  
+    
+    <definition name="updateData" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/getDetails.jsp" />  
+    </definition>  
+    
+    <definition name="home" extends="defaultTemplate">  
+        <put-attribute name="title" value="Jobprovider Home" />
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />  
+    </definition>  
+    
+    <definition name="register" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="body" value="/WEB-INF/views/register.jsp" />  
+    </definition>
+    
+ 
+    <definition name="registered" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="body" value="/WEB-INF/views/registered.jsp" />  
+    </definition>
+    <definition name="logout" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />  
+    </definition>
+    <definition name="loginEmployee" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/getDetails.jsp" />  
+    </definition>
+   <definition name="upload" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/upload.jsp" />  
+    </definition>  
+     <definition name="doUpload" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/uploaded.jsp" />  
+    </definition>  
+    <definition name="uploaded" extends="defaultTemplate">  
+        <put-attribute name="title" value="JobProvider" />
+        <put-attribute name="menu" value="/WEB-INF/View/menu2.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/views/uploaded.jsp" />  
+    </definition> 
+</tiles-definitions> 
+    
