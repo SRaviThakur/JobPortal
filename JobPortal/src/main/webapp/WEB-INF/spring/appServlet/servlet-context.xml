@@ -38,8 +38,8 @@
   
       <beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
       <beans:property name="url" value="jdbc:mysql://localhost:3306/myDb" />
-      <beans:property name="username" value="root" />
-      <beans:property name="password" value="glxkrishna" />
+      <beans:property name="username" value="system" />
+      <beans:property name="password" value="system" />
     </beans:bean> 
     
     <!-- Spring ORM (Spring-Hibernate Integration) Configuration -->
