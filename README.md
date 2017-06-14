@@ -7,7 +7,7 @@ Pre Requisite:
   You need eclipse ide, mysql and tomcat.
   
 Getting Started:
-  You need to import this code and then make changes in the db username and password in JobPortal/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml file.
+  You need to import this code and then make changes in the db username and password in JobPortal/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml file.Also, you need to change the upload directory path in the homecontroller page.
   
 Build-With:
   Spring- Framework Used
