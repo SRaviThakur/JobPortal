@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h4 style="text-color:blue;">© 2015 JobProvider - All Rights Reserved... Made by <b>RST</b></h4>
+ <h4 style="text-color:blue;">Â© 2016 JobProvider - All Rights Reserved... Made by <b>RST</b></h4>
 </body>
 </html>
